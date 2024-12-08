@@ -1,2 +1,11 @@
-# Auto detect text files and perform LF normalization
+#Normaliza os finais de linha para Unix (LF)
 * text=auto
+
+#Tratamento para arquivos Python
+*.py text eol=lf
+
+#Evita que arquivos binários sejam corrompidos
+*.png binary
+*.jpg binary
+*.gif binary
+*.pdf binary
